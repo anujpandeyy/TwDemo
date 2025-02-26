@@ -7,7 +7,7 @@ export default function Card() {
             <div className='mt-5'>
                 <div className='flex flex-col sm:flex-row justify-center sm:justify-start items-center sm:items-start'>
                     <div className='max-w-xs sm:max-w-sm lg:max-w-md xl:max-w-lg bg-white rounded-xl overflow-hidden'>
-                        <img className="w-full h-auto" src={Img} alt="Anuj Pandey" />
+                        <img className="ml-5 w-full h-auto rounded-xl overflow-hidden" src={Img} alt="Anuj Pandey" />
                     </div>
                     <div className='p-6 sm:p-8 lg:p-10 sm:ml-6'>
                         <div className='text-3xl sm:text-4xl lg:text-5xl font-bold text-sky-500'>Title</div>
