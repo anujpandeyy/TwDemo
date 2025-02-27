@@ -1,15 +1,33 @@
 import React from 'react'
 
-export default function NavBar(){
-    return(
-        <>
-        <div className='bg-black text-white font-bold'>
-        <ul className='flex p-3 justify-evenly'>
-            <li className='hover:text-sky-500 cursor-pointer'><a href=""></a>Home</li>
-            <li className='hover:text-sky-500 cursor-pointer'><a href=""></a>About</li>
-            <li className='hover:text-sky-500 cursor-pointer'><a href=""></a>Contact</li>
-        </ul>
+export default function NavBar() {
+  return (
+    <>
+      <div className='bg-black text-white font-bold'>
+        <div className='flex items-center justify-between px-9 py-5'>
+          <h1 className='ml-9'>Anuj Pandey</h1>
+          <ul className='flex space-x-6'>
+            <li className='hover:text-sky-500 cursor-pointer hover:animate-pulse'>
+              <a href="">ABOUT</a>
+            </li>
+            <li className='hover:text-sky-500 cursor-pointer hover:animate-pulse'>
+              <a href="">SKILLS</a>
+            </li>
+            <li className='hover:text-sky-500 cursor-pointer hover:animate-pulse'>
+              <a href="">WORK</a>
+            </li>
+            <li className='hover:text-sky-500 cursor-pointer hover:animate-pulse'>
+              <a href="">PROJECTS</a>
+            </li>
+            <li className='hover:text-sky-500 cursor-pointer hover:animate-pulse'>
+              <a href="">CONTACT</a>
+            </li>
+            <li className='hover:text-sky-500 cursor-pointer hover:animate-pulse'>
+              <a href="">RESUME</a>
+            </li>
+          </ul>
         </div>
-        </>
-    );
+      </div>
+    </>
+  );
 }
